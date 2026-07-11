@@ -1,0 +1,5 @@
+print("Veda")
+print("Jakarta")
+print("Student")
+print("Indonesia")
+print("Cats and dogs")
