@@ -1,7 +1,6 @@
 Title: Converting temperature units
 Declaration: grade
 Implementation:
-Input grade
 
 if grade < 0 or grade > 100:
     Display Invalid grade
