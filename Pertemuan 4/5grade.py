@@ -1,4 +1,4 @@
-# Grade conversion dictionary defined at the top
+# Dictionary
 grade_to_gpa = {
     "A": 4.00,
     "A-": 3.75,
@@ -15,7 +15,7 @@ grade_to_gpa = {
 total_points = 0.0
 count = 0
 
-# Start input loop
+# Start
 status = True
 while status:
     user_grade = input("Enter Grade Category (Press Enter to Stop): ").strip().upper()
@@ -24,7 +24,7 @@ while status:
         status = False
         break
 
-    # Check if the entered grade exists in our dictionary
+
     if user_grade in grade_to_gpa:
         total_points += grade_to_gpa[user_grade]
         count += 1
@@ -50,4 +50,5 @@ for grade, point_value in grade_to_gpa.items():
         smallest_difference = difference
         closest_designation = grade
 
+# End
 print(f"The average grade is {average:.2f} with a designation of {closest_designation}")
