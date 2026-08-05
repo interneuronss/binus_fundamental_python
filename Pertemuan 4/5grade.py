@@ -51,4 +51,4 @@ for grade, point_value in grade_to_gpa.items():
         closest_designation = grade
 
 # End
-print(f"The average grade is {average:} with a designation of {closest_designation}")
+print(f"The average grade is {average} with a designation of {closest_designation}")
