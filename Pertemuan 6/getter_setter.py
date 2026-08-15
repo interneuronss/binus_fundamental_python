@@ -61,7 +61,7 @@ def main():
                 elif name_or_score == "Score":
                     new_score = int(input("Enter Student Score (0-100): "))
                     if new_score > 100 or new_score < 0:
-                        print(">>Score must be between 0 and 100")
+                        print(">> Score must be between 0 and 100")
                     else:
                         student.setScore(new_score)
                         print(">> Data successfully updated.")
@@ -76,10 +76,10 @@ def main():
                 score = 0
                 print(">> Data successfully deleted.")
             else:
-                print(">>No student record to delete.")
+                print(">> No student record to delete.")
     # OPTION 5
         elif option == 5:
-            print(">>Thank you for using my program.")
+            print(">> Thank you for using my program.")
             status = False
 
         else:
